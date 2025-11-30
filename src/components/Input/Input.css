@@ -1,0 +1,27 @@
+.input-wrapper {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.input-btn {
+  background: none;
+  border: none;
+  padding: 0 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-btn:focus {
+  outline: none;
+}
