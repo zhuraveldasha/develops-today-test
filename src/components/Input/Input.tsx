@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import './Input.css'; 
 
-interface InputProps{
-    type: 'password'| 'text' | 'number' ;
+interface InputProps {
+    type: 'password'| 'text' | 'number';
     clearable ?: boolean;
     name: string;
-    value ?: string ;
+    value ?: string;
 }
 
 export const Input: React.FC<InputProps> = ({ type, name, value = '', clearable }) => {

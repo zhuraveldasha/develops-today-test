@@ -1,14 +1,12 @@
 import "./App.css";
 import {Input} from "./components/Input/Input";
+import {Toast} from "./components/Toast/Toast";
 
 function App() {
   return (
     <>
       <Input type="password" name="user_pass" clearable/>
-      <br />
-      <Input type="text" name="user_name"/>
-      <br />
-      <Input type="number" name="user_age" clearable value="36"/>
+      <Toast type="success" text="hello" closeButton transition duration={3000}/>
     </>
   );
 }
