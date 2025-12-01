@@ -1,0 +1,14 @@
+.menu-item {
+   border: 1px solid wheat;
+}
+
+.menu-item-label {
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-item-children {
+    padding: 5px 10px;
+    color: #fff;
+}
